@@ -19,4 +19,7 @@ tweet_array=tweet.split(" ")
     word
   }.join(" ")
 end
+
+def bulk_tweet_shortner(tweets)
+      tweets.map{|tweet| word_substituter(tweet)}
 end
